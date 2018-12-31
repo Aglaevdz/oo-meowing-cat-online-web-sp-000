@@ -6,7 +6,7 @@ class Cat
     end
 
   def cat(cat)
-    @cat = cat
+    @cat = (cat)
   end
 
   def attr_accessor
