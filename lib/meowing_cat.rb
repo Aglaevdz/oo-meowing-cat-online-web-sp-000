@@ -5,11 +5,7 @@ class Cat
     @cat = cat
     end
 
-  def cat(cat)
-    @cat = (cat)
-  end
-
-  def attr_accessor
+  def cat
     @cat
   end
 end
