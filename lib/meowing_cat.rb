@@ -5,7 +5,7 @@ class Cat
     @cat = cat
     end
 
-  def cat
+  def cat(cat)
     @cat
   end
 end
