@@ -12,10 +12,11 @@ class Cat
   def attr_accessor
     @cat
   end
+end
 
   maru = Cat.new
-  #maru.name = "Maru"
+  maru.name = "Maru"
 
-  #maru.name
-  #maru.meow
+  maru.name
+  maru.meow
 end
