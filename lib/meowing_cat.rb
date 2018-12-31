@@ -1,8 +1,11 @@
 ## code your solution here.
 class Cat
 
-  def attr_accessor(cat)
-    @cat = cat
+  def name=(name)
+      @name = name
     end
-
-end
+   
+    def name
+      @name
+    end
+  end
