@@ -1,11 +1,11 @@
 ## code your solution here.
 class Cat
 
-  def name=(name)
-      @name = name
+  def attr_accessor=(cat)
+      @cat = cat
     end
 
-    def name
+    def cat
       @name
     end
   end
