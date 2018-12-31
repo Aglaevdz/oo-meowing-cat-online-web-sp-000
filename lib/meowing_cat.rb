@@ -12,7 +12,7 @@ class Cat
   def attr_accessor
     @cat
   end
-end
+
 
   maru = Cat.new
   maru.name = "Maru"
